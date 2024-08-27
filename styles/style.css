@@ -52,6 +52,28 @@ a {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
+.pre-tittle {
+    text-transform: uppercase;
+    letter-spacing: .6rem;
+    color: grey;
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.pre-tittle::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: var(grey);
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+}
+
 /* logo dan menu navigation */
 .nav {
     display: flex;
@@ -97,8 +119,45 @@ nav ul li a{
 }
 
 .burger {
+    display: none;
     z-index: 99;
     position: fixed;
     top: 33px;
     right: 35px;
+}
+
+/* hero section*/
+#hero {
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0.5rem 0 1rem;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+/*biodata sections*/
+#biodata {
+    background-color: bisque;
+    padding: 6rem 0;
+}
+
+.biodata .pre-tittle {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.biodata-label {
+    display: inline-block;
+    width: 200px;
+    color: black;
 }
