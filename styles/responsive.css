@@ -55,29 +55,29 @@ p{
         transform: translateX(0);
     }
 
-    #hero {
+    #home {
         grid-template-columns: 1fr;
         height: fit-content;
     }
 
-    .hero-right{
+    .home-right{
         order: -1;
     }
 
-    .hero-right img {
+    .home-right img {
         width: 70%;
     }
 
-    .hero-left {
+    .home-left {
         text-align: center;
         padding-bottom: 5rem;
     }
 
-    .hero-left .pre-title {
+    .home-left .pre-title {
         margin: auto;
     }
 
-    .hero-name {
+    .home-name {
         font-size: 2.3rem;
         margin-bottom: 0.5rem;
     }
