@@ -82,6 +82,46 @@ p{
         margin-bottom: 0.5rem;
     }
 
+    #biodata {
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+
+    .biodata-label{
+        width: 200px;
+    }
+
+    .biodata-right {
+        order: -1;
+    }
+
+    .biodata-right img {
+        width: auto;
+    }
+
+    .biodata-left .pre-title {
+        margin: auto;
+    }
+    
+    .biodata-left {
+        padding-bottom: 5rem;
+        padding-left: 1rem;
+    }
+    
+    .biodata-left .pre-title {
+        margin: auto;
+    }
+
+    .grid-3{
+        grid-template-columns: 1fr;
+    }
+
+    .experience-image{
+        width: 60%;
+        max-width: none;
+        height: auto;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
