@@ -88,11 +88,12 @@ p{
     }
 
     .biodata-label{
-        width: 200px;
+        width: auto;
     }
 
     .biodata-right {
         order: -1;
+        padding: 1rem;
     }
 
     .biodata-right img {
@@ -105,11 +106,8 @@ p{
     
     .biodata-left {
         padding-bottom: 5rem;
-        padding-left: 1rem;
-    }
-    
-    .biodata-left .pre-title {
-        margin: auto;
+        padding-left: 3rem;
+        text-align: justify;
     }
 
     .grid-3{
